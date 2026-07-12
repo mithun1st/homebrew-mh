@@ -11,7 +11,7 @@ class Network < Formula
   on_macos do
     on_arm do
       url "#{BASE_URL}-mac-silicon"
-      sha256 "sha256:d538f090c577ad75bd7fe44bbe48c4b00c3ed3b82bf20f5e50eb9a75670fc2fc"
+      sha256 "d538f090c577ad75bd7fe44bbe48c4b00c3ed3b82bf20f5e50eb9a75670fc2fc"
     end
 
     on_intel do

@@ -34,7 +34,6 @@ class Ptimer < Formula
   end
 
   def install
-    # This installs the downloaded file as a binary named 'ptimer'
     bin.install Dir["*"].first => "ptimer"
   end
 
